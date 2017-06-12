@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+}
+
+#container {
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #F2F2F2;
+  border-bottom: 2px solid #FAE282;
+}
+
+.agence {
+  display: flex;
+}
+
+.numero {
+  margin-left: 25px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+.bloc1 {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+
+.circuits {
+  padding-right: 15px;
+}
+
+.bloc2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.first, .deux, .trois, .quatre, .cinq, .six, .sept, .huit {
+  color: #3F4144;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.offres {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offres img {
+  width: 33.3333%
+}
+.agence a {
+  text-decoration: none;
+  color: black;
+}
+.moment {
+  display: flex;
+  justify-content: space-between;
+}
+
+.moment img {
+  width: 100%;
+}
+.tunisie {
+  padding-top: 19px;
+}
+.palma {
+  display: flex;
+  flex-direction: column;
+}
+.trois img {
+  width: 100%;
+}
+.monoi {
+  display: flex;
+}
+.quatre img {
+  width: 25%;
+}
+.cinq img {
+  width: 100%;
+}
+.mignon {
+  display: flex;
+  justify-content: space-between;
+}
+.mignon img{
+  width: 33.3333%;
+}
+.smart {
+  display: flex;
+  justify-content: space-between;
+}
+.smart img {
+  width: 25%;
+}
+.club {
+  display: flex;
+  justify-content: space-between;
+}
+.club img {
+  width: 25%;
+}
