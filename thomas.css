@@ -37,12 +37,17 @@ body {
   text-decoration: none;
   color: black;
 }
+.bloc {
+  padding-left: 20px;
+}
 .bloc1 {
   display: flex;
-  justify-content: flex-end;
   padding-bottom: 20px;
 }
-
+.formu {
+  display: flex;
+  justify-content: space-between;
+}
 .circuits {
   padding-right: 15px;
 }
@@ -116,4 +121,12 @@ body {
 }
 .club img {
   width: 25%;
+}
+.blue {
+  border: 1px solid blue;
+  padding-bottom: 100px;
+}
+.gris {
+  border: 1px solid grey;
+  padding-bottom: 300px;
 }
